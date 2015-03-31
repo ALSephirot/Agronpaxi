@@ -1,0 +1,372 @@
+body
+	background white
+
+p{
+	font-family "arial"
+	font-size 18px
+}
+
+section
+	background white
+	width 100%
+
+figure
+	margin 0
+	width 100%
+
+/*Inicio Estilos Header*/
+header
+	background white
+	border-top: 12px solid #E35000;
+	height 250px
+	margin -8px 0px 0px -8px
+	position fixed
+	width 100%
+	z-index +1
+	
+	div
+		margin 0 auto
+		width 90%
+	
+		.ContentRedes
+			display inline-block
+			width 22%
+			
+			.outsourcing
+				width 50%
+				 
+				img
+					padding 0 0 0 50%
+					width 100%
+			.redes
+				padding 5% 0 0 55%
+				width 50%
+				
+				div
+					width 100%
+					
+					div
+						display inline-block
+						width 20%
+						
+						img
+							width 100%
+					:hover
+						cursor  pointer
+
+		.ContentBuscador
+			display: inline-block;
+			height 110px;
+			width: 22%;
+		
+		#buscar
+			border 2px solid #FFAB7E
+			border-radius 5px
+			color gray
+			display flex
+			height 22px
+			margin 20% 0 0 -10%
+			width 80%
+		
+		figure
+			display inline-block
+			margin 1%
+			width 50%
+			
+			
+			img
+				height 100%
+				width 100%
+				
+		.ContentMenu
+			margin 5% auto
+			width 70%
+			
+			ul
+				width 100%
+				
+				li
+					border-right 1px solid rgb(227, 80, 0)
+					display inline-block
+					height 60px
+					text-align center
+					width 20%
+					
+					a
+						color rgb(227, 80, 0)
+						width 100%
+						
+						
+						div
+							width 100%
+							height 60px
+						
+							p
+								margin 0
+								padding 10% 0 0 0 
+					:hover
+						background #24607d
+						color white
+					:link
+						text-decoration none
+					:visited
+						color rgb(227, 80, 0)
+
+			li[data-select=true]{
+				background: #24607d
+			}
+
+			li[data-select=true] a p{
+					color:#fff;
+			}
+/*Fin estilos Header*/
+
+/*Inicio estilos Article Index*/
+article
+	padding 280px 0 0 0
+	width 100%
+	
+	.Slider
+		width 100%
+		.InfoSlider
+			background none repeat scroll 0% 0% rgba(36, 96, 125, 0.9)
+			display -moz-popup
+			height 597px
+			margin 0 0 0 4%
+			position absolute
+			width 32%
+	.ListaSlider
+		background none repeat scroll 0% 0% rgba(36, 96, 125, 0.5)
+		border 1px solid
+		border-top-right-radius 50px
+		border-bottom-right-radius 50px
+		border-top-left-radius 50px
+		border-bottom-left-radius 50px
+		margin -3% 0px 0 50%
+		position absolute;
+		width 10%
+		ul
+			margin 0
+			padding 0
+			li
+				width 15px
+				height 15px
+				margin 4px
+				display inline-block
+				
+				img
+					border 1px solid #E35000
+					border-radius 50%
+					width 100%
+					height 100%
+				:hover
+					cursor pointer
+	
+	figure
+		height 597px
+		
+		img
+			width 100%
+			height 100%
+.ContentInfo
+	border-left 1px solid #fff
+	margin 0 0 0 2%
+	.TituloNota p
+		color white
+		font-size 2.5em
+		font-weight bold
+		margin-bottom 0
+		margin-left 2.5%
+	.DetalleNota p
+		color white
+		font-size 1.5em
+		margin-bottom 0
+		margin-left 2.5%
+
+.ContentBody
+	background #fff
+	margin 0 auto
+	width 95%
+	.ContentNoticias
+		background #24607d
+		display inline-block
+		margin 2% 5%
+		width 50%
+		
+		.ContentNews
+			margin 2% auto
+			width 95%
+			div
+				p
+					color white
+				figure
+					height 4% !important
+					
+				a
+					background #39ad4a
+					border 1px solid black
+					color white
+					margin 0 0 0 77%
+					padding 10px 30px
+					text-decoration none
+	
+		.ContentVideos
+			height 350px !important
+			margin 15% auto 2%
+			width 95%
+			
+			iframe
+				width 100%
+				height 100%
+			
+	.ContentCategoriasProd
+		background #24607d
+		color white
+		display inline-block
+		margin 0% 4% 0px
+		vertical-align top
+		width 30%
+		
+		.Titulo
+			.PrimeraLinea
+				font-size 3em
+				margin 4% 0px 0px 14%
+				width 60%
+			
+			.SegundaLinea
+				font-size 3em
+				width 50%
+				margin 0px 0px 0px 35%
+			
+			.areaTitulo
+				background #24607d
+				border-top 1px dashed white
+				height 6em
+		
+		ul
+			list-style none
+			
+			li
+				font-size 2em
+				margin 18% 10%
+.TituloCategorias
+	position absolute
+	height 7.8em
+	margin -61.8% 0px 0% 58.3%
+	width 31.75%
+	z-index 0
+	
+	figure
+		height 7.8em
+		position absolute
+	
+	div
+		.ParrafoUno
+			color white
+			font-size 2em
+			margin 10% 0px 0px 23%
+			position absolute
+			z-index 1
+		.ParrafoDos
+			color white
+			margin 18% 23%
+			position absolute
+			z-index 1
+
+.SliderOpcion[data-select=true] img
+	border: 1px solid #fff;
+/*Fin estilos Article Index*/
+
+/*Estilos Quienes Somos*/
+.ContenedorPpalQS
+	background url("../img/bannerquienessomos.png") no-repeat
+	background-size 100%
+	margin 5% auto
+	width 90%
+	
+	.ImagenEmpleado
+		display inline-block
+		height 20%
+		margin 6% 2% 1% 1%
+		width 20%
+		
+		img
+			width 100%
+			
+	.NombreEmpleado
+		display inline-block
+		margin 10% 2% 1% 1%
+		vertical-align top
+		width 40%
+		
+		p
+			color white
+			font-size 2em
+			margin 0
+			
+	.ContentRedes
+		display inline-block
+		padding 7% 0% 1% 8%
+		vertical-align top
+		width 25%
+		
+		figure
+			display inline-block
+			width 20%
+			height 20%
+			
+			img
+				width 100%
+		:hover
+			cursor pointer
+				
+	.DescripcionEmpleado
+		color white
+		font-size 18px
+		margin -8% 0px 1% 24%
+		padding 0% 0 3% 0%
+		vertical-align top
+		width 75%
+			
+/*Fin estilos Quienes Somos*/
+
+/*Inicio estilos footer*/
+footer
+	height 300px
+	width 100%
+	
+	.Partners
+		border-top 1px dashed #E35000
+		margin 1% auto
+		width 90%
+		
+		figure
+			display inline-block
+			margin 0 4%
+			img
+				width 100%
+		
+		p
+			color #E35000
+			font-size 1.5em
+			
+		.Partner1
+			width 20%
+		.Partner2
+			width 10%
+		.Partner3
+			width 10%
+		.Partner4
+			width 20%
+	.Copy
+		background none repeat scroll 0% 0% rgb(227, 80, 0)
+		height 15%
+		margin 1% 0px 0px
+		width 100%
+		
+		p
+			color white
+			font-size 15px
+			padding 1% 0px 0px 1%
+/*Fin estilos footer*/
+
