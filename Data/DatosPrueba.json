@@ -1,0 +1,91 @@
+{
+	"ImagenesSlider":
+	[
+		{
+			"id":"bannerIndex2",
+			"TituloImagen": "Hola Mundo 1",
+			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
+		},
+		{
+			"id":"bannerIndex2",
+			"TituloImagen": "Hola Mundo 2",
+			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
+		},
+		{
+			"id":"bannerIndex2",
+			"TituloImagen": "Hola Mundo 3",
+			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
+		},
+		{
+			"id":"bannerIndex2",
+			"TituloImagen": "Hola Mundo 4",
+			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
+		},
+		{
+			"id":"bannerIndex2",
+			"TituloImagen": "Hola Mundo 5",
+			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
+		}
+	],
+	"Noticia":
+	{
+		"id":"Noticia1",
+		"DescripcionNoticia":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, temporibus, quis tenetur dolore labore nobis vitae necessitatibus est sapiente, quisquam eos omnis placeat rem fugit distinctio accusantium perspiciatis ipsum assumenda.",
+		"LinkNoticia":"www.google.com"
+	},
+	"Video":
+	{
+		"TituloVideo":"Titulo de Prueba",
+		"LinkVideo":"http://www.youtube.com/embed/Gs1e-z1xuVc"
+	},
+	"QuienesSomos":
+	{
+		"Banner":
+		{
+			"id":"bannerIndex2",
+			"TituloImagen": "EL EQUIPO",
+			"DescripcionImagen": "INNOVAMOS PARA APORTAR AL CRECIMIENTO DEL PAÍS."
+		},
+		"Empleados":
+		[
+			{
+				"id":"1234567",
+				"Nombre":"JHON SMITH",
+				"Cargo":"GERENTE GENERAL",
+				"Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus similique non cupiditate consectetur deleniti magni praesentium architecto doloribus dolorum debitis tenetur ab, numquam illo, itaque ea iusto obcaecati ipsa hic!",
+				"Facebook":"http://www.facebook.com",
+				"Twitter":"http://www.twitter.com",
+				"LinkId":"http://www.linkid.com"
+			},
+			{
+				"id":"12345678",
+				"Nombre":"LUIS E. OQUENDO",
+				"Cargo":"DESARROLLADOR",
+				"Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus similique non cupiditate consectetur deleniti magni praesentium architecto doloribus dolorum debitis tenetur ab, numquam illo, itaque ea iusto obcaecati ipsa hic!",
+				"Facebook":"http://www.facebook.com",
+				"Twitter":"http://www.twitter.com",
+				"LinkId":"http://www.linkid.com"
+			},
+			{
+				"id":"123456789",
+				"Nombre":"JHON SMITH",
+				"Cargo":"GERENTE GENERAL",
+				"Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus similique non cupiditate consectetur deleniti magni praesentium architecto doloribus dolorum debitis tenetur ab, numquam illo, itaque ea iusto obcaecati ipsa hic!",
+				"Facebook":"http://www.facebook.com",
+				"Twitter":"http://www.twitter.com",
+				"LinkId":"http://www.linkid.com"
+			},
+			{
+				"id":"1234567890",
+				"Nombre":"JHON SMITH",
+				"Cargo":"GERENTE GENERAL",
+				"Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus similique non cupiditate consectetur deleniti magni praesentium architecto doloribus dolorum debitis tenetur ab, numquam illo, itaque ea iusto obcaecati ipsa hic!",
+				"Facebook":"http://www.facebook.com",
+				"Twitter":"http://www.twitter.com",
+				"LinkId":"http://www.linkid.com"
+			}
+		]
+	}
+	
+	
+}

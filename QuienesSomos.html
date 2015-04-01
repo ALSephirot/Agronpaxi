@@ -4,7 +4,10 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/estilos.css">
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-	<title>Agronpaxi - Index</title>
+	<script src="js/globalv.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/QuienesSomos.js"></script>
+	<title>Agronpaxi - Quienes Somos?</title>
 </head>
 <body>
 	<section>
@@ -16,17 +19,15 @@
 				<figure>
 					<img src="img/logo.png" alt="LogoHeader">
 				</figure>
-				<div class="ContentRedes">
-					<div class="outsourcing">
-						<img src="img/outsourcing.png" alt="Outsourcing">
-					</div>
-					<div class="redes">
-						<div>
-							<div><img src="img/facebook.png" alt="Facebook"></div>
-							<div><img src="img/twitter.png" alt="Twitter"></div>
-							<div><img src="img/linkid.png" alt="LinkId"></div>
-							<div><img src="img/blog.png" alt="Blog"></div>
-						</div>
+				<div class="outsourcing">
+					<img src="img/outsourcing.png" alt="Outsourcing">
+				</div>
+				<div class="redes">
+					<div>
+						<div><img src="img/facebook.png" alt="Facebook"></div>
+						<div><img src="img/twitter.png" alt="Twitter"></div>
+						<div><img src="img/linkid.png" alt="LinkId"></div>
+						<div><img src="img/blog.png" alt="Blog"></div>
 					</div>
 				</div>
 				<div class="ContentMenu">
@@ -106,9 +107,9 @@
 						<p>GERENTE COMERCIAL</p>
 					</div>
 					<div class="ContentRedes">
-						<figure><img src="img/facebook.png" alt="Facebook"></figure>
-						<figure><img src="img/twitter.png" alt="Twitter"></figure>
-						<figure><img src="img/linkid.png"  alt="LinkId"></figure>
+						<figure><img id="EmpleadoFacebook" src="img/facebook.png" alt="Facebook" data-src="" onclick="ClickRedesEmpleado(this)"></figure>
+						<figure><img id="EmpleadoTwitter" src="img/twitter.png" alt="Twitter" data-src="" onclick="ClickRedesEmpleado(this)"></figure>
+						<figure><img id="EmpleadoLinkid" src="img/linkid.png"  alt="LinkId" data-src="" onclick="ClickRedesEmpleado(this)"></figure>
 					</div>
 					<p class="DescripcionEmpleado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nemo reiciendis sint rem, fugiat quos provident sapiente iure quod nostrum adipisci sequi omnis, eius expedita, distinctio! Rerum culpa amet eaque!</p>
 
