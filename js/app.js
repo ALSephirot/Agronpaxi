@@ -17,7 +17,7 @@ function loadDataArray(url,Consulta) {
 			},
 			error: function (msg) {
 				  
-				ServiceFailed(msg);
+				OnError(msg);
 
 			}
 		});
