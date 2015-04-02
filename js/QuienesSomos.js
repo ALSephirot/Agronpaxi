@@ -21,3 +21,7 @@ function CargarEmpleados (Empleados) {
 function ClickRedesEmpleado(red) {
 	// body...
 }
+
+$(document).ready(function() {
+	ObtenerInformacion("QuienesSomos");
+});
