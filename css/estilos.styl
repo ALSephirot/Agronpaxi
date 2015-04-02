@@ -17,12 +17,12 @@ figure
 /*Inicio Estilos Header*/
 header
 	background white
-	border-top: 12px solid #E35000;
+	border-top: 12px solid #FF5000;
 	height 250px
 	margin -8px 0px 0px -8px
 	position fixed
 	width 100%
-	z-index +1
+	z-index 5
 	
 	div
 		margin 0 auto
@@ -31,7 +31,7 @@ header
 			
 		.outsourcing
 			display inline-block;
-			margin 4% 0px 0px 8%
+			margin 40px 0px 0px 8%
 			width 12%
 			vertical-align top
 			
@@ -41,7 +41,7 @@ header
 				width 100%
 		.redes
 			display block
-			margin -1% 0% 0px 87%
+			margin -10px 0% 0px 87%
 			vertical-align top
 			width 13%
 			
@@ -68,12 +68,12 @@ header
 			color gray
 			display flex
 			height 22px
-			margin 20% 0px 0px -15%
+			margin 55px 0px 0px -15%
 			width 80%
 		
 		figure
 			display inline-block
-			margin 4% 0px 0px 5%
+			margin 40px 0px 0px 5%
 			width 45%
 			
 			
@@ -90,7 +90,7 @@ header
 				width 100%
 				
 				li
-					border-right 1px solid rgb(227, 80, 0)
+					border-right 1px solid rgb(255, 80, 0)
 					display inline-block
 					height 60px
 					text-align center
@@ -114,7 +114,7 @@ header
 					:link
 						text-decoration none
 					:visited
-						color rgb(227, 80, 0)
+						color rgb(255, 80, 0)
 
 			li[data-select=true]{
 				background: #24607d
@@ -133,12 +133,22 @@ article
 	.Slider
 		width 100%
 		.InfoSlider
-			background none repeat scroll 0% 0% rgba(36, 96, 125, 0.9)
+			background rgba(0,95,127,0.3)//url("../img/FondoBanner.png") no-repeat
+			background-size 100%
 			display -moz-popup
 			height 597px
 			margin 0 0 0 4%
 			position absolute
 			width 32%
+			z-index 1
+			
+		.TransparenciaNegra
+			background rgba(0,0,0,0.5)
+			height 597px
+			margin 0 0 0 4%
+			position absolute
+			width 32%
+			z-index 0
 	.ListaSlider
 		background none repeat scroll 0% 0% rgba(36, 96, 125, 0.5)
 		border 1px solid
@@ -340,7 +350,7 @@ footer
 	width 100%
 	
 	.Partners
-		border-top 1px dashed #E35000
+		border-top 1px dashed #FF5000
 		margin 1% auto
 		width 90%
 		
