@@ -2,12 +2,12 @@
 	"ImagenesSlider":
 	[
 		{
-			"id":"bannerIndex2",
+			"id":"bannerIndex",
 			"TituloImagen": "Hola Mundo 1",
 			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
 		},
 		{
-			"id":"bannerIndex2",
+			"id":"bannerIndex1",
 			"TituloImagen": "Hola Mundo 2",
 			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
 		},
@@ -17,12 +17,12 @@
 			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
 		},
 		{
-			"id":"bannerIndex2",
+			"id":"bannerIndex3",
 			"TituloImagen": "Hola Mundo 4",
 			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
 		},
 		{
-			"id":"bannerIndex2",
+			"id":"bannerIndex4",
 			"TituloImagen": "Hola Mundo 5",
 			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
 		}
@@ -42,7 +42,7 @@
 	{
 		"Banner":
 		{
-			"id":"bannerIndex2",
+			"id":"bannerEmpleados",
 			"TituloImagen": "EL EQUIPO",
 			"DescripcionImagen": "INNOVAMOS PARA APORTAR AL CRECIMIENTO DEL PAÍS."
 		},
