@@ -1,4 +1,18 @@
 $(document).ready(function($) {
+	/*
+	MSIE para detectar Internet Explroer
+	Firefox para detectar Firefox
+	Chrome para detectar Google Chrome
+	Opera para detectar Opera
+	*/
+	
+	var navegador = navigator.userAgent;
+	if (navegador.indexOf('Chrome') != -1) {
+	    $("#ContentRedes").attr("style","margin: -39px 0% 0px 87% !important");
+	}
+	else
+		$("#ContentRedes").attr("style","margin: -10px 0% 0px 87% !important");
+	}
 	ObtenerInformacion("Index");
 });
 
