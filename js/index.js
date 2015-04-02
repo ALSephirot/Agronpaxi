@@ -10,7 +10,7 @@ $(document).ready(function($) {
 	if (navegador.indexOf('Chrome') != -1) {
 	    $("#ContentRedes").attr("style","margin: -39px 0% 0px 87% !important");
 	}
-	else
+	else{
 		$("#ContentRedes").attr("style","margin: -10px 0% 0px 87% !important");
 	}
 	ObtenerInformacion("Index");
