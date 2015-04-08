@@ -2,7 +2,7 @@ body
 	background white
 
 p{
-	font-family "arial"
+	font-family "helvetica"
 	font-size 18px
 }
 
@@ -158,13 +158,15 @@ article
 		border-bottom-left-radius 50px
 		margin -3% 0px 0 50%
 		position absolute;
-		width 10%
+		width 130px
 		ul
+			display inline-block
 			margin 0
 			padding 0
+			width 100px
 			li
-				width 15px
-				height 15px
+				width 10px
+				height 10px
 				margin 4px
 				display inline-block
 				
@@ -175,6 +177,19 @@ article
 					height 100%
 				:hover
 					cursor pointer
+		
+		.Antes
+			background url("../img/arrowA.png") no-repeat scroll 3px 7px
+			background-size 100% 13px
+			display inline-block
+			height 19px
+			width 10px
+		.Despues
+			background url("../img/arrowS.png") no-repeat scroll 3px 7px / 100% 13px
+			display inline-block
+			height 19px
+			width 10px
+			
 	
 	figure
 		height 597px

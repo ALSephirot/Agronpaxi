@@ -32,7 +32,7 @@ function CargarSlider (ObjectSlider) {
 
 	$.each(ObjectSlider, function(index, item) {
 		htmlM += '<li class="SliderOpcion" data-select="true" onclick="CambiarImagen(this)">' +
-					'<img src="img/'+item.id+'.png" data-src="img/'+item.id+'.png" data-nombreimagen="'+item.TituloImagen+'" data-descripcionnoticia="'+item.DescripcionImagen+'" data-linknoticia="#" data-titulo="'+item.TituloImagen+'" alt="Opcion '+(index+1)+'" data-count="'+index+'">'+
+					'<img src="img/minslider.png" data-src="img/'+item.id+'.png" data-nombreimagen="'+item.TituloImagen+'" data-descripcionnoticia="'+item.DescripcionImagen+'" data-linknoticia="#" data-titulo="'+item.TituloImagen+'" alt="Opcion '+(index+1)+'" data-count="'+index+'">'+
 				'</li>';	 
 	});
 
