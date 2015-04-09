@@ -1,3 +1,6 @@
+*
+	font-family "helvetica"
+
 body
 	background white
 
@@ -19,8 +22,8 @@ header
 	background white
 	border-top: 12px solid #FF5000;
 	height 250px
-	margin -8px 0px 0px -8px
-	position fixed
+	margin -8px 0px 0px 0px
+	//position fixed
 	width 100%
 	z-index 5
 	
@@ -30,14 +33,15 @@ header
 		
 			
 		.outsourcing
+			border-bottom: 1px solid rgba(255,52,0,0.15);
 			display inline-block;
-			margin 40px 0px 0px 8%
+			margin 40px 0px 0px 19%
 			width 12%
 			vertical-align top
 			
 			 
 			img
-				padding 0 0 0 50%
+				padding 0 0 2px 0
 				width 100%
 		.redes
 			display block
@@ -59,7 +63,7 @@ header
 
 		.ContentBuscador
 			display: inline-block;
-			height 110px;
+			height 90px;
 			width: 22%;
 		
 		#buscar
@@ -67,14 +71,14 @@ header
 			border-radius 5px
 			color gray
 			display flex
-			height 22px
-			margin 55px 0px 0px -15%
+			height 18px
+			margin 50px 0px 0px -15%
 			width 80%
 		
 		figure
 			display inline-block
-			margin 40px 0px 0px 5%
-			width 45%
+			margin 40px 0px 0px 10%
+			width 35%
 			
 			
 			img
@@ -82,19 +86,19 @@ header
 				width 100%
 				
 		.ContentMenu
-			margin 3% auto
-			width 70%
+			margin 0 auto
+			width 55%
 			
 			ul
-				margin 0 0 5px 0
+				padding 0
 				width 100%
 				
 				li
 					border-right 1px solid rgb(255, 80, 0)
 					display inline-block
-					height 60px
+					height 40px
 					text-align center
-					width 20%
+					width 24%
 					
 					a
 						color rgb(227, 80, 0)
@@ -103,11 +107,13 @@ header
 						
 						div
 							width 100%
-							height 60px
+							height 40px
 						
 							p
+								font-size 13px
+								font-weight bold
 								margin 0
-								padding 10% 0 0 0 
+								padding 7% 0 0 0 
 					:hover
 						background #24607d
 						color white
@@ -127,7 +133,7 @@ header
 
 /*Inicio estilos Article Index*/
 article
-	padding 280px 0 0 0
+	//padding 280px 0 0 0
 	width 100%
 	
 	.Slider
@@ -367,6 +373,7 @@ footer
 	.Partners
 		border-top 1px dashed #FF5000
 		margin 1% auto
+		overflow auto
 		width 90%
 		
 		figure
@@ -380,13 +387,13 @@ footer
 			font-size 1.5em
 			
 		.Partner1
-			width 20%
+			width 230px
 		.Partner2
-			width 10%
+			width 140px
 		.Partner3
-			width 10%
+			width 140px
 		.Partner4
-			width 20%
+			width 230px
 	.Copy
 		background none repeat scroll 0% 0% rgb(227, 80, 0)
 		height 15%
