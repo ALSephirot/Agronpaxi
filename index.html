@@ -2,13 +2,22 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/tinycarousel.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="css/estilos.css" />
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="js/SliderOJ.js"></script>
 	<script src="js/globalv.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/index.js"></script>
+	<script src="js/jquery.tinycarousel.js"></script>
 	<title>Agronpaxi - Index</title>
+
+	<script>
+		$(document).ready(function()
+		{
+			$('#sliderPartners').tinycarousel();
+		});
+	</script>
 </head>
 <body>
 	<section>
@@ -151,15 +160,19 @@
 		<footer>
 			<div class="Partners">
 				<p>Partners</p>
-				<div>
-					<div>
-						<figure class="Partner1"><img src="img/partner1.png" alt="Partner 1"></figure>
-						<figure class="Partner2"><img src="img/partner2.png" alt="Partner 2"></figure>
-						<figure class="Partner3"><img src="img/partner3.png" alt="Partner 3"></figure>
-						<figure class="Partner4"><img src="img/partner4.png" alt="Partner 4"></figure>
-						<figure class="Partner4"><img src="img/partner5.png" alt="Partner 5"></figure>
-						<figure class="Partner4"><img src="img/partner6.png" alt="Partner 6"></figure>
+				<div id="sliderPartners">
+					<a class="buttons prev" href="#">&#60;</a>
+					<div class="viewport">
+						<ul class="overview">
+							<li><figure class="Partner1"><img src="img/partner1.png" alt="Partner 1"></figure></li>
+							<li><figure class="Partner2"><img src="img/partner2.png" alt="Partner 2"></figure></li>
+							<li><figure class="Partner3"><img src="img/partner3.png" alt="Partner 3"></figure></li>
+							<li><figure class="Partner4"><img src="img/partner4.png" alt="Partner 4"></figure></li>
+							<li><figure class="Partner4"><img src="img/partner5.png" alt="Partner 5"></figure></li>
+							<li><figure class="Partner4"><img src="img/partner6.png" alt="Partner 6"></figure></li>
+						</ul>
 					</div>
+					<a class="buttons next" href="#">&#62;</a>
 				</div>
 			</div>
 			<div class="Copy">
