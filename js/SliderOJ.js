@@ -111,11 +111,11 @@ function Atras() {
         var Imagen = $("[data-count=" + (Imagenes.length - 1) + "]");
         CambiarImagen(Imagen.parent(), true);
 
-        var inicio = Imagenes.length - 11;
+        /*var inicio = Imagenes.length - 11;
 
         var final = Imagenes.length - 1;
 
-        miniaturas(inicio, final);
+        miniaturas(inicio, final);*/
     }
 
     else {

@@ -145,7 +145,7 @@ article
 			height 440px
 			margin 0 0 0 4%
 			position absolute
-			width 25%
+			width 23.5%
 			z-index 1
 			
 		.TransparenciaNegra
@@ -153,7 +153,7 @@ article
 			height 440px
 			margin 0 0 0 4%
 			position absolute
-			width 25%
+			width 23.5%
 			z-index 0
 	.ListaSlider
 		background none repeat scroll 0% 0% rgba(36, 96, 125, 0.5)
@@ -183,8 +183,56 @@ article
 					height 100%
 				:hover
 					cursor pointer
+						
+	.SliderAntes
+		display inline
+		position absolute
+		margin -230px 0px 0px
+	    
+		.buttons
+			background #E35000
+			border-radius 35px
+			display block
+			width 35px
+			height 35px
+			color #fff
+			font-weight bold
+			text-align center
+			line-height 35px
+			text-decoration none
+			font-size 22px
+		:hover
+			background white
+			border 1px solid #E35000
+			color #E35000
+				
+	.SliderDespues
+		display inline
+		left auto
+		margin -230px 43px 0px 0%
+		position absolute
+		right 0px
 		
-		.Antes
+		.buttons
+			background #E35000
+			border-radius 35px
+			display block
+			position absolute
+			width 35px
+			height 35px
+			color #fff
+			font-weight bold
+			text-align center
+			line-height 35px
+			text-decoration none
+			font-size 22px
+		:hover
+			background white
+			border 1px solid #E35000
+			color #E35000
+
+
+		/*.Antes
 			background url("../img/arrowA.png") no-repeat scroll 3px 7px
 			background-size 100% 13px
 			display inline-block
@@ -194,7 +242,7 @@ article
 			background url("../img/arrowS.png") no-repeat scroll 3px 7px / 100% 13px
 			display inline-block
 			height 19px
-			width 10px
+			width 10px*/
 			
 	
 	figure
@@ -396,6 +444,37 @@ article
 /*Fin estilos Quienes Somos*/
 
 /*Inicio estilos Productos*/
+.ContentCategoriasProd2
+	background #24607d
+	color white
+	display inline-block
+	margin 0% 1.6% 0px
+	vertical-align top
+	width 25%
+	
+	.Titulo
+		.PrimeraLinea
+			font-size 40px
+			margin 4% 0px 0px 14%
+			width 60%
+		
+		.SegundaLinea
+			font-size 40px
+			width 50%
+			margin 0px 0px 0px 35%
+		
+		.areaTitulo
+			background #24607d
+			border-top 1px dashed white
+			height 6em
+	
+	ul
+		list-style none
+		
+		li
+			font-size 1.5em
+			margin 24% 10%
+
 .ContentInfoProd
 	display inline-block
 	margin 2% 6%
@@ -424,7 +503,7 @@ article
 .TituloCategorias2
 	position absolute
 	height 7em
-	margin -785.8px 0px 0% 2.9%
+	margin -806px 0px 0% -0.3%
 	width 26.65%
 	z-index 0
 	
