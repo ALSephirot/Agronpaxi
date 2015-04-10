@@ -6,15 +6,15 @@
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="js/globalv.js"></script>
 	<script src="js/app.js"></script>
-	<script src="js/index.js"></script>
-	<title>Agronpaxi - Index</title>
+	<script src="js/QuienesSomos.js"></script>
+	<title>Agronpaxi - Quienes Somos?</title>
 </head>
 <body>
 	<section>
 		<header>
 			<div>
 				<div class="ContentBuscador">
-					<input type="text" id="buscar" placeholder="Buscar"> 
+					<input type="text" id="buscar" placeholder="buscar"> 
 				</div>
 				<figure>
 					<img src="img/logo.png" alt="LogoHeader">
@@ -22,7 +22,7 @@
 				<div class="outsourcing">
 					<img src="img/outsourcing.png" alt="Outsourcing">
 				</div>
-				<div id="ContentRedes" class="redes">
+				<div class="redes">
 					<div>
 						<div><img src="img/facebook.png" alt="Facebook"></div>
 						<div><img src="img/twitter.png" alt="Twitter"></div>
@@ -50,7 +50,7 @@
 								</div>
 							</a>
 						</li>
-						<li data-select="true">
+						<li data-select="false">
 							<a href="Productos.html">
 								<div>
 									<p>
@@ -59,7 +59,7 @@
 								</div>
 							</a>
 						</li>
-						<li data-select="false">
+						<li data-select="true">
 							<a href="Contactenos.html">
 								<div>
 									<p>
@@ -77,59 +77,30 @@
 				<div class="InfoSlider">
 					<div class="ContentInfo">
 						<div id="TituloNoticia" class="TituloNota">
-							<p>Reguladores de Crecimiento</p>
+							<p>EL EQUIPO</p>
 						</div>
 						<div id="DescripcionNoticia" class="DetalleNota">
-							<p></p>
+							<p>INNOVAMOS PARA APORTAR AL CRECIMIENTO DEL PAÍS.</p>
 						</div>
 					</div>
 				</div>
 				<div class="TransparenciaNegra"></div>
 				<figure>
-					<img id="Imagen" src="img/bannerProductos.png" data-count="" alt="Banner Index">
+					<img id="Imagen" src="img/bannerIndex2.png" data-count="" alt="Banner Index">
 				</figure>
 			</div>
 			<div class="ContentBody">
-				<div class="ContentCategoriasProd">
-					<div class="Titulo">
-						<p class="PrimeraLinea">Lineas de</p>
-						<p class="SegundaLinea">Productos</p>
-						<div class="areaTitulo"></div>
-					</div>
-					<div class="Categorias">
-						<ul>
-							<li>FERTILIZANTES</li>
-							<li>COADYUVANTES</li>
-							<li>SUSTRTOS A BASE DE TURBA</li>
-							<li>PESTICIDAS</li>
-							<li>SEMILLAS</li>
-							<li>TERMO NEBULIZADORES</li>
-						</ul>
-					</div>
-				</div>
-				<div class="TituloCategorias2">
-					<div>
-						<p class="ParrafoUno">REGULADORES</p>
-						<p class="ParrafoDos">DE CRECIMIENTO</p>
-					</div>
-					<figure>
-						<img src="img/bannertitulocategoria.png" alt="banner titulo">
-					</figure>
-				</div>
-				<div class="ContentInfoProd">
-					<div class="DescripcionProd">
-						<figure>
-							<img src="img/imagenProductos.png" alt="Imagen Producto">
-						</figure>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nostrum omnis, eum ex harum aut! Quam, temporibus vitae illo error? In asperiores quod provident animi ipsam perspiciatis, doloremque ea impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quis, nulla. Quibusdam totam hic obcaecati itaque maxime non architecto, ipsa nulla, ducimus quas velit, labore, earum maiores excepturi beatae sunt.Modi porro, voluptatem tenetur quo quas consequuntur reiciendis repellendus eos molestias veniam quis temporibus, doloribus architecto vero odio, pariatur eaque amet voluptatibus iure voluptatum dolorem aperiam obcaecati. Delectus, sunt iste.
-						</p>
-					</div>
-					<div class="GraficoProd">
-						<figure>
-							<img src="img/GraficoProductos.png" alt="Grafico Productos">
-						</figure>
-					</div>
+				<div class="ContentForm">
+					<p>Contáctenos</p>
+        			<p class="Obligatorio">*Estos campos son requeridos</p>
+					<form action="EnviarMensaje.php" method="post">
+						<label for="nombre"><label style="color:red;">*</label>Nombre<br> </label><input name="nombre" id="nombre" required="" type="text"><br>
+			            <label for="correo"><label style="color:red;">*</label>E-Mail<br></label><input name="correo" id="correo" value="@" required="" type="email"><br>
+			            <label for="asunto"><label style="color:red;">*</label>Subject<br> </label><input name="asunto" id="asunto" required="" type="text"><br>
+			            <label for="mensaje">Mensaje<br> </label><textarea name="mensaje" id="mensaje" rows="10" cols="70"></textarea><br> 
+			            
+						<div><button class="Enviar" type="submit">Send It</button></div>      
+					</form>
 				</div>
 			</div>
 		</article>
