@@ -41,7 +41,7 @@ function CargarSlider (ObjectSlider) {
 }
 
 function CargarNoticiaVideo (Noticia,Video) {
-	$("#ImagenNoticia").attr("src","img/"+Noticia.id+".jpg");
+	$("#ImagenNoticia").attr("src","img/"+Noticia.id+".png");
 	$("#LinkNoticia").attr("href","http://"+Noticia.LinkNoticia);
 	$("#DescNoticia p").html(Noticia.DescripcionNoticia);
 	$("#VideoNoticia").attr("src",Video.LinkVideo);
