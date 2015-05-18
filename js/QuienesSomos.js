@@ -11,7 +11,7 @@ function CargarQuienesSomos(ObjectInfo) {
 function CargarSlider (ObjectInfo) {
 	$("#TituloNoticia p").html(ObjectInfo.TituloImagen);
 	$("#DescripcionNoticia p").html()
-	$("#Imagen").attr("src","img/"+ObjectInfo.id+".png");
+	$("#Imagen").attr("src","img/"+ObjectInfo.id+".jpg");
 }
 
 function CargarEmpleados (Empleados) {
