@@ -38,6 +38,12 @@ function OnSucces (ArrayInfo, Consulta) {
 	{
 		CargarQuienesSomos(ArrayInfo);
 	}
+	else if(Consulta == "Productos")
+	{
+		setProductos(ArrayInfo.Productos);
+		onClicProducto("inicial");
+	}
+
 }
 
 function OnError(Error) {

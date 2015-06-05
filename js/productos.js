@@ -1,0 +1,36 @@
+function ObtenerInformacion(Consulta) {
+	url = "Data/DatosPrueba.json"
+	loadDataArray(url,Consulta);
+}
+
+
+
+function onClicProducto (Objeto) {
+	CargarProducto(getProductos(),Objeto);
+}
+
+function CargarProducto(Productos, consulta) {
+	var HTMLProducto = "";
+
+	if(consulta == "inicial")
+	{
+		$.each(Productos, function (index, item) {
+			if(item.Codigo == "REGCRE")
+			{
+				$.each(item.Productos, function (index, prod) {
+					HTMLProducto += '<div class="DescripcionProd"><figure><img src="img/'+item.Nombre+'/PRODUCTOS SEPARADOS/'+prod.Codigo+'.png" alt="Imagen Producto"></figure></div>';
+				})
+			}
+		});
+	}
+	else
+	{
+		$(consulta).attr();
+	}
+
+	$("#ContenedorProductos").html(HTMLProducto);
+}
+
+$(document).ready(function () {
+	ObtenerInformacion("Productos");
+})

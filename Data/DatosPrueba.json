@@ -8,23 +8,23 @@
 		},
 		{
 			"id":"bannerIndex1",
-			"TituloImagen": "Hola Mundo 2",
-			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
+			"TituloImagen": "",
+			"DescripcionImagen": ""
 		},
 		{
 			"id":"bannerIndex2",
-			"TituloImagen": "Hola Mundo 3",
-			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
+			"TituloImagen": "",
+			"DescripcionImagen": ""
 		},
 		{
 			"id":"bannerIndex3",
-			"TituloImagen": "Hola Mundo 4",
-			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
+			"TituloImagen": "",
+			"DescripcionImagen": ""
 		},
 		{
 			"id":"bannerIndex4",
-			"TituloImagen": "Hola Mundo 5",
-			"DescripcionImagen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus culpa minus, possimus a qui maiores assumenda aperiam eum eaque, obcaecati quidem dignissimos, maxime mollitia ipsam est consequuntur magnam perferendis."
+			"TituloImagen": "",
+			"DescripcionImagen": ""
 		}
 	],
 	"Noticia":
@@ -85,7 +85,219 @@
 				"LinkId":"http://www.linkid.com"
 			}
 		]
-	}
+	},
+	"Productos":[
+		{
+			"Codigo":"COAD",
+			"Nombre":"COADYUVANTES",
+			"Productos":[
+				{
+					"Codigo":"COAD001",
+					"Nombre":"FRUTEX"
+				},
+				{
+					"Codigo":"COAD002",
+					"Nombre":"NUTRIFOG"
+				},
+				{
+					"Codigo":"COAD003",
+					"Nombre":"PORTER"
+				}
+			]
+		},
+		{
+			"Codigo":"FERT",
+			"Nombre":"FERTILIZANTES",
+			"Productos":[
+				{
+					"Codigo":"FERT001",
+					"Nombre":"AQUA-CAL"
+				},
+				{
+					"Codigo":"FERT002",
+					"Nombre":"COMO"
+				},
+				{
+					"Codigo":"FERT003",
+					"Nombre":"FLOWER POWER"
+				},
+				{
+					"Codigo":"FERT004",
+					"Nombre":"HARVEST MORE"
+				},
+				{
+					"Codigo":"FERT005",
+					"Nombre":"KEYLATE"
+				},
+				{
+					"Codigo":"FERT006",
+					"Nombre":"KEYLATE BANANA"
+				},
+				{
+					"Codigo":"FERT007",
+					"Nombre":"MICROMATE"
+				},
+				{
+					"Codigo":"FERT008",
+					"Nombre":"MICROMIX"
+				},
+				{
+					"Codigo":"FERT009",
+					"Nombre":"N-HIB CALCIUM"
+				},
+				{
+					"Codigo":"FERT010",
+					"Nombre":"NITRATE BALANCED"
+				},
+				{
+					"Codigo":"FERT011",
+					"Nombre":"PHOS MOLY"
+				},
+				{
+					"Codigo":"FERT012",
+					"Nombre":"SETT"
+				},
+				{
+					"Codigo":"FERT013",
+					"Nombre":"SUGAR MOVER"
+				},
+				{
+					"Codigo":"FERT014",
+					"Nombre":"ULTRA CROP-K"
+				}
+			]
+		},
+		{
+			"Codigo":"INDEF",
+			"Nombre":"INDUCTORES DE DEFENSAS",
+			"Productos":[
+				{
+					"Codigo":"INDEF001",
+					"Nombre":"PHOS4US"
+				},
+				{
+					"Codigo":"INDEF002",
+					"Nombre":"PHOSMEX"
+				},
+				{
+					"Codigo":"INDEF003",
+					"Nombre":"PHYTO GARD"
+				},
+				{
+					"Codigo":"INDEF004",
+					"Nombre":"REZIST"
+				}
+			]
+		},
+		{
+			"Codigo":"PEST",
+			"Nombre":"PESTICIDAS",
+			"Productos":[
+				{
+					"Codigo":"PEST001",
+					"Nombre":"BOMOREX"
+				}
+			]
+		},
+		{
+			"Codigo":"REGCRE",
+			"Nombre":"REG.CRECIMIENTO",
+			"Productos":[
+				{
+					"Codigo":"REGCRE001",
+					"Nombre":"BIO FORGE"
+				},
+				{
+					"Codigo":"REGCRE002",
+					"Nombre":"ENLARGE PREMIERE"
+				},
+				{
+					"Codigo":"REGCRE003",
+					"Nombre":"FOLY ZYME"
+				},
+				{
+					"Codigo":"REGCRE004",
+					"Nombre":"NBX"
+				},
+				{
+					"Codigo":"REGCRE005",
+					"Nombre":"NITROPLUS18"
+				},
+				{
+					"Codigo":"REGCRE006",
+					"Nombre":"ROOT FEED"
+				},
+				{
+					"Codigo":"REGCRE007",
+					"Nombre":"ROOT FEED SP"
+				},
+				{
+					"Codigo":"REGCRE008",
+					"Nombre":"STIMULATE"
+				},
+				{
+					"Codigo":"REGCRE009",
+					"Nombre":"X CYTE"
+				}
+			]
+		},
+		{
+			"Codigo":"SUST",
+			"Nombre":"SUSTRATOS",
+			"Productos":[
+				{
+					"Codigo":"SUST001",
+					"Nombre":"BM2"
+				},
+				{
+					"Codigo":"SUST002",
+					"Nombre":"BM2 EURO"
+				},
+				{
+					"Codigo":"SUST003",
+					"Nombre":"BM2 GG"
+				},
+				{
+					"Codigo":"SUST004",
+					"Nombre":"BM2b"
+				},
+				{
+					"Codigo":"SUST005",
+					"Nombre":"BM2 PRODUCTO"
+				},
+				{
+					"Codigo":"SUST006",
+					"Nombre":"BP PRO"
+				},
+				{
+					"Codigo":"SUST007",
+					"Nombre":"BR PRO PRODUCTO"
+				},
+			]
+		},
+		{
+			"Codigo":"TERM",
+			"Nombre":"TERMONEBULIZADORES",
+			"Productos":[
+				{
+					"Codigo":"TERM001",
+					"Nombre":"K22"
+				},
+				{
+					"Codigo":"TERM002",
+					"Nombre":"K22 STD PRODUCTO"
+				},
+				{
+					"Codigo":"TERM003",
+					"Nombre":"K30"
+				},
+				{
+					"Codigo":"TERM004",
+					"Nombre":"K30 20 PRODUCTO"
+				},
+			]
+		}
+	]
 	
 	
 }

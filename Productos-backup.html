@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/tinycarousel.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="js/globalv.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/jquery.tinycarousel.js"></script>
+	<title>Agronpaxi - Productos</title>
+
+	<script>
+		$(document).ready(function()
+		{
+			$('#sliderPartners').tinycarousel();
+		});
+	</script>
+</head>
+<body>
+	<section>
+		<header>
+			<div>
+				<div class="ContentBuscador">
+					<input type="text" id="buscar" placeholder="Buscar"> 
+				</div>
+				<figure>
+					<img src="img/logo.png" alt="LogoHeader">
+				</figure>
+				<!--<div class="outsourcing">
+					<img src="img/outsourcing.png" alt="Outsourcing">
+				</div>-->
+				<div id="ContentRedes" class="redes">
+					<div>
+						<div><img src="img/facebook.png" alt="Facebook"></div>
+						<div><img src="img/twitter.png" alt="Twitter"></div>
+						<div><img src="img/linkid.png" alt="LinkId"></div>
+						<div><img src="img/blog.png" alt="Blog"></div>
+					</div>
+				</div>
+				<div class="ContentMenu">
+					<ul>
+						<li data-select="false">
+							<a href="Index.html">
+								<div>
+									<p>
+										Home
+									</p>
+								</div>
+							</a>
+						</li>
+						<li data-select="false">
+							<a href="QuienesSomos.html">
+								<div>
+									<p>
+										Quienes Somos
+									</p>
+								</div>
+							</a>
+						</li>
+						<li data-select="true">
+							<a href="Productos.html">
+								<div>
+									<p>
+										Productos
+									</p>
+								</div>
+							</a>
+						</li>
+						<li data-select="false">
+							<a href="Contactenos.html">
+								<div>
+									<p>
+										Contacto
+									</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<article>
+			<div class="Slider" data-ocultar="true">
+				<div class="InfoSlider">
+					<div class="ContentInfo">
+						<div id="TituloNoticia" class="TituloNota">
+							<p>Reguladores de Crecimiento</p>
+						</div>
+						<div id="DescripcionNoticia" class="DetalleNota">
+							<p></p>
+						</div>
+					</div>
+				</div>
+				<div class="TransparenciaNegra"></div>
+				<figure>
+					<img id="Imagen" src="img/bannerProductos.png" data-count="" alt="Banner Index">
+				</figure>
+			</div>
+			<div class="ContentBody">
+				<div class="ContentCategoriasProd2">
+					<div class="Titulo">
+						<p class="PrimeraLinea">Líneas de</p>
+						<p class="SegundaLinea">Productos</p>
+						<div class="areaTitulo"></div>
+					</div>
+					<div class="Categorias">
+						<ul>
+							<li>FERTILIZANTES</li>
+							<li>COADYUVANTES</li>
+							<li>SUSTRATOS A BASE DE TURBA</li>
+							<li>PESTICIDAS</li>
+							<li>SEMILLAS</li>
+							<li>TERMO NEBULIZADORES</li>
+						</ul>
+					</div>
+				</div>
+				<div class="TituloCategorias2">
+					<div>
+						<p class="ParrafoUno">REGULADORES</p>
+						<p class="ParrafoDos">DE CRECIMIENTO</p>
+					</div>
+					<figure>
+						<img src="img/bannertitulocategoria.png" alt="banner titulo">
+					</figure>
+				</div>
+				<div class="ContentInfoProd">
+					<div class="DescripcionProd">
+						<figure>
+							<img src="img/imagenProductos.png" alt="Imagen Producto">
+						</figure>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nostrum omnis, eum ex harum aut! Quam, temporibus vitae illo error? In asperiores quod provident animi ipsam perspiciatis, doloremque ea impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quis, nulla. Quibusdam totam hic obcaecati itaque maxime non architecto, ipsa nulla, ducimus quas velit, labore, earum maiores excepturi beatae sunt.Modi porro, voluptatem tenetur quo quas consequuntur reiciendis repellendus eos molestias veniam quis temporibus, doloribus architecto vero odio, pariatur eaque amet voluptatibus iure voluptatum dolorem aperiam obcaecati. Delectus, sunt iste.
+						</p>
+					</div>
+					<div class="GraficoProd">
+						<figure>
+							<img src="img/GraficoProductos.png" alt="Grafico Productos">
+						</figure>
+					</div>
+				</div>
+			</div>
+		</article>
+		<footer>
+			<div class="Partners">
+				<p>Partners</p>
+				<div id="sliderPartners">
+					<a class="buttons prev" href="#">&#60;</a>
+					<div class="viewport">
+						<ul class="overview">
+							<li><figure class="Partner1"><img src="img/partner1.png" alt="Partner 1"></figure></li>
+							<li><figure class="Partner2"><img src="img/partner2.png" alt="Partner 2"></figure></li>
+							<li><figure class="Partner3"><img src="img/partner3.png" alt="Partner 3"></figure></li>
+							<li><figure class="Partner4"><img src="img/partner4.png" alt="Partner 4"></figure></li>
+							<li><figure class="Partner4"><img src="img/partner5.png" alt="Partner 5"></figure></li>
+							<li><figure class="Partner4"><img src="img/partner6.png" alt="Partner 6"></figure></li>
+						</ul>
+					</div>
+					<a class="buttons next" href="#">&#62;</a>
+				</div>
+			</div>
+			<div class="Copy">
+				<p>Copyright © 2010-2015 Graphic Resources LLC. All screenshots © their respective owners.</p>
+			</div>
+		</footer>
+	</section>
+</body>
+</html>
