@@ -25,7 +25,15 @@ function CargarProducto(Productos, consulta) {
 	}
 	else
 	{
-		$(consulta).attr();
+		var codigo = $(consulta).attr("data-codigo");
+		$.each(Productos, function (index, item) {
+			if(item.Codigo == codigo)
+			{
+				$.each(item.Productos, function (index, prod) {
+					HTMLProducto += '<div class="DescripcionProd"><figure><img src="img/'+item.Nombre+'/PRODUCTOS SEPARADOS/'+prod.Codigo+'.png" alt="Imagen Producto"></figure></div>';
+				})
+			}
+		});
 	}
 
 	$("#ContenedorProductos").html(HTMLProducto);
