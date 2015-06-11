@@ -49,36 +49,27 @@
 		"Empleados":
 		[
 			{
-				"id":"1234567",
-				"Nombre":"JHON SMITH",
-				"Cargo":"GERENTE GENERAL",
+				"id":"user1",
+				"Nombre":"ING. JUAN PABLO CHAVEZ",
+				"Cargo":"GERENTE COMERCIAL",
 				"Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus similique non cupiditate consectetur deleniti magni praesentium architecto doloribus dolorum debitis tenetur ab, numquam illo, itaque ea iusto obcaecati ipsa hic!",
 				"Facebook":"http://www.facebook.com",
 				"Twitter":"http://www.twitter.com",
 				"LinkId":"http://www.linkid.com"
 			},
 			{
-				"id":"12345678",
-				"Nombre":"LUIS E. OQUENDO",
-				"Cargo":"DESARROLLADOR",
+				"id":"user2",
+				"Nombre":"ING. JUAN CARLOS MIÑO",
+				"Cargo":"GERENTE DE INVESTIGACIÓN",
 				"Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus similique non cupiditate consectetur deleniti magni praesentium architecto doloribus dolorum debitis tenetur ab, numquam illo, itaque ea iusto obcaecati ipsa hic!",
 				"Facebook":"http://www.facebook.com",
 				"Twitter":"http://www.twitter.com",
 				"LinkId":"http://www.linkid.com"
 			},
 			{
-				"id":"123456789",
-				"Nombre":"JHON SMITH",
-				"Cargo":"GERENTE GENERAL",
-				"Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus similique non cupiditate consectetur deleniti magni praesentium architecto doloribus dolorum debitis tenetur ab, numquam illo, itaque ea iusto obcaecati ipsa hic!",
-				"Facebook":"http://www.facebook.com",
-				"Twitter":"http://www.twitter.com",
-				"LinkId":"http://www.linkid.com"
-			},
-			{
-				"id":"1234567890",
-				"Nombre":"JHON SMITH",
-				"Cargo":"GERENTE GENERAL",
+				"id":"user3",
+				"Nombre":"ING. XAVIER QUIROZ",
+				"Cargo":"GERENTE FINANCIERO",
 				"Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus similique non cupiditate consectetur deleniti magni praesentium architecto doloribus dolorum debitis tenetur ab, numquam illo, itaque ea iusto obcaecati ipsa hic!",
 				"Facebook":"http://www.facebook.com",
 				"Twitter":"http://www.twitter.com",
