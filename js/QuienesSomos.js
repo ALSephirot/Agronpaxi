@@ -35,6 +35,8 @@ function CargarEmpleados (Empleados) {
 
 				'</div>';	 
 	});
+
+	$("#ContenedorEmpleados").html(HTMLEmpleados);
 }
 
 function ClickRedesEmpleado(red) {
