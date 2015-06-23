@@ -10,13 +10,15 @@ function onClicProducto (Objeto) {
 }
 
 function CargarProducto(Productos, consulta) {
-	var HTMLProducto = "";
+	var 
+	HTMLProducto = "";
 
 	if(consulta == "inicial")
 	{
 		$.each(Productos, function (index, item) {
 			if(item.Codigo == "REGCRE")
 			{
+				HTMLProducto = "<h3>"+ item.Nombre +"</h3>";
 				$.each(item.Productos, function (index, prod) {
 					HTMLProducto += '<div class="DescripcionProd"><figure><img src="img/'+item.Nombre+'/PRODUCTOS SEPARADOS/'+prod.Codigo+'.png" alt="Imagen Producto"></figure></div>';
 				})
@@ -29,6 +31,7 @@ function CargarProducto(Productos, consulta) {
 		$.each(Productos, function (index, item) {
 			if(item.Codigo == codigo)
 			{
+				HTMLProducto = "<h3>"+ item.Nombre +"</h3>";
 				$.each(item.Productos, function (index, prod) {
 					HTMLProducto += '<div class="DescripcionProd"><figure><img src="img/'+item.Nombre+'/PRODUCTOS SEPARADOS/'+prod.Codigo+'.png" alt="Imagen Producto"></figure></div>';
 				})
